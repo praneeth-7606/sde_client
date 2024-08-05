@@ -30,7 +30,7 @@ function Signup() {
       e.preventDefault();
       try{
         const res=await axios.post(
-          `https://sde-server.onrender.com/api/route/auth/signup`,{name,email,password,role,question});
+          `https://sde-server.onrender.com/api/route/auth/register`,{name,email,password,role,question});
         if(res && res.data.success){
           toast.success(res.data && res.data.message);
           await Promise.resolve();
