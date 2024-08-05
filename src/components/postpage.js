@@ -26,7 +26,7 @@ const PostPage = () => {
     if (image) formData.append('image', image);
 
     try {
-      const response = await axios.post('https://sde-server.onrender.com/api/image/generate-og-image', formData, {
+      const response = await axios.post('http://sde-server.onrender.com/api/image/generate-og-image', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setOgImageUrl(response.data.ogImageUrl);
