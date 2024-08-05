@@ -1,0 +1,95 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 4px;
+  font-style: normal;
+}
+
+body{
+ /* color: red; */
+ /* background-color: aqua; */
+}
+.App{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.hi{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+
+}
+
+.navbar-link:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+/* src/styles/Background.css */
+.background-container {
+  /* D:\mywebdevelopment\fullstackassignment\client\login\src\components\mypic.png */
+  /* background-image: url('./mymainimage copy.png'); */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 0;
+}
+.like-button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.heart-icon {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.heart-icon.liked {
+  color: #e0245e; /* Instagram-like red color for liked state */
+}
+.comment-button {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.comment-icon {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.comment-form {
+  display: flex;
+  margin-top: 5px;
+}
+
+.comment-input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.comment-submit {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.comments-list {
+  margin-top: 10px;
+}
+
+.comment-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
