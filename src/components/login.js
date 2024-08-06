@@ -119,7 +119,7 @@ function Login() {
                                     variant="primary"
                                     type="submit"
                                     className="btn btn-success mt-3 w-100"
-                                    disabled={!verified}
+                                    
                                 >
                                     Login
                                 </Button>
