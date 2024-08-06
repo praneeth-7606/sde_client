@@ -27,7 +27,7 @@ function Login() {
       e.preventDefault();
       try{
         const res=await axios.post(
-          `https://sde-server-1.onrender.com/api/route/auth/login`,{email,password});
+          `https://sde-server-6.onrender.com/api/route/auth/login`,{email,password});
         if(res.data.success){
           toast.success(res.data.message);
           setauth({
@@ -50,7 +50,7 @@ function Login() {
 
       }
     };
-    console.log("https://sde-server-1.onrender.com/api/route/auth/login")
+    console.log("https://sde-server-6.onrender.com/api/route/auth/login")
 
     const handleRecaptchaChange = () => {
         setVerified(true);
